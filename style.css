@@ -1,0 +1,148 @@
+body,
+ul,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 20px;
+  background-color: #f9fafc;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+.company-logo {
+  font-size: large;
+  padding-bottom: 5px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.list-item {
+  color: #69696a;
+  padding: 5px 0;
+}
+
+.anchor-accent {
+  background-color: #000;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+.lorem {
+  padding-left: 10px;
+  border-left: 3px solid #69696a;
+  color: #69696a;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(247, 193, 162, 0.7);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-item {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  .main-content {
+    display: flex;
+    margin-top: 150px;
+  }
+
+  .text-container {
+    flex: 1;
+  }
+
+  .circles-container {
+    flex: 1;
+    position: relative;
+  }
+
+  .large {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 200px;
+    height: 200px;
+    right: 50px;
+  }
+
+  .small {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 30px;
+  }
+
+  .medium {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 150px;
+    height: 150px;
+    right: 10px;
+    top: 100px;
+  }
+
+  .circle {
+    border-radius: 50%;
+    position: absolute;
+  }
+}
